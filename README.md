@@ -1,3 +1,6 @@
+#Fork of wizSpinner Plugin with rudimentary Windows Phone Support
+This fork is identical to the original Version. Only a static Windows plugin is added that supports show/hide. Options are added as I need them or pull requests come in ;)
+
 # phonegap-plugin-wizSpinner 
 
 - PhoneGap Version : 3.0
