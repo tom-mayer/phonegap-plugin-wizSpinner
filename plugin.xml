@@ -82,7 +82,19 @@
         <framework src="ImageIO.framework" />
 
     </platform>
-    
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="WizSpinnerPlugin">
+                <param name="wp-package" value="WizSpinnerPlugin"/>
+            </feature>
+        </config-file>
+
+        <source-file src="wp8/WizSpinnerPlugin.cs" />
+
+    </platform>
+
     <license>MIT</license>
 
 </plugin>
